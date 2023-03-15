@@ -4,6 +4,9 @@
         width: 100vh;
         flex-direction: column;
     }
+    nav{
+        display: none;
+    }
     .container-pesquisa {
         display: none;
     }
@@ -21,7 +24,7 @@
     .container-perfil {
         background-color: #00a884;
     }
-    .pesquisa-celular {
+    .celular {
         display: flex;
         align-items: center;
         height: 6.8%;
