@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(#00a884 0%, #00a884 127px, #d9dbd5 127px, #d9dbd5 100%);
+    background: linear-gradient(#00a884 0%, #00a884 127px, #000000 127px, #000000 100%);
 }
 
 main {
@@ -12,7 +12,7 @@ main {
     justify-content: center;
     height: 96%;
     width: 83.5%;
-    background-color: white;
+    background-color: black;
 }
 
 .celular {
@@ -31,10 +31,10 @@ article {
     flex: 30%;
 }
 
-nav{
+nav {
     flex: 70%;
     overflow: hidden;
-    border-bottom: 6px solid #00a884;
+    border-bottom: 6px solid #000000;
 }
 
 .icons {

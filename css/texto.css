@@ -4,7 +4,7 @@
     width: 100%;
     height: 65px;
     justify-content: space-between;
-    background-color: #85858533;
+    background-color: white;
     padding: 15px;
 }
 
@@ -15,7 +15,6 @@
     height: 40px;
     width: 85%;
     padding-left: 50px;
-
 }
 
 .icons-texto {
