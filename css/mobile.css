@@ -4,13 +4,16 @@
         width: 100vh;
         flex-direction: column;
     }
-    nav{
+    /* article{
+        display: none;
+    } */
+    aside {
         display: none;
     }
     .container-pesquisa {
         display: none;
     }
-    .container-perfil img {
+    article .container-perfil img {
         display: none;
     }
     .container-perfil .icons {
@@ -19,17 +22,17 @@
     .title {
         display: block;
         font-size: 1.1rem;
-        color: white;
+        color: white
     }
     .container-perfil {
-        background-color: #00a884;
+        background: linear-gradient(#000cd0 0%, #000cd0 127px, black 127px, black 100%);
     }
-    .celular {
+    .pesquisa-celular {
         display: flex;
         align-items: center;
         height: 6.8%;
         justify-content: space-around;
-        background-color: #00a884;
+        background: linear-gradient(#000cd0 0%, #000cd0 127px, #d9dbd5 127px, #d9dbd5 100%);
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
         border-bottom: 2px solid #2525252f;
         color: white;
@@ -39,5 +42,18 @@
         font-size: 1.3rem;
         gap: 40px;
         color: white;
+    }
+    .container-mensagens {
+        padding: 20px;
+    }
+    .mensagem-contatos {
+        padding: 5px;
+        margin: 10px;
+        max-width: 60%;
+    }
+    .minha-mensagem {
+        padding: 5px;
+        margin: 10px;
+        max-width: 60%;
     }
 }

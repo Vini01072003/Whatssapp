@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(#00a884 0%, #00a884 127px, #000000 127px, #000000 100%);
+    background: linear-gradient(black 0%, 127px, #000cd0 127px, #000cd0 100%);
 }
 
 main {
@@ -15,7 +15,7 @@ main {
     background-color: black;
 }
 
-.celular {
+.pesquisa-celular {
     display: none;
 }
 
@@ -29,12 +29,13 @@ main {
 
 article {
     flex: 30%;
+    overflow: hidden;
 }
 
-nav {
+aside {
     flex: 70%;
     overflow: hidden;
-    border-bottom: 6px solid #000000;
+    border-bottom: 6px solid #25d366;
 }
 
 .icons {

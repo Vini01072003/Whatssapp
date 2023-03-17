@@ -1,12 +1,12 @@
 .container-perfil {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: white;
     align-items: center;
     height: 7%;
     width: 100%;
     padding: 15px;
-    border-right: 1px solid #2525252f;
+    border-right: 1px solid white;
 }
 
 .fotos-perfil {
