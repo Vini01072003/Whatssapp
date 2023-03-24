@@ -18,4 +18,5 @@ O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no c
 ## Tecnologias utilizadas
 - HTML
 - CSS
+- JavaScript
 - Responsividade
